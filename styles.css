@@ -1,3 +1,4 @@
+
 body {
     height: 1;
     display: flex;
@@ -67,8 +68,8 @@ a {
 }
 
 .hero-main {
-    font-size: 40px;
-    font-weight: bolder;
+    font-size: 48px;
+    font-weight: 1000;
     color: #f9faf8;
 }
 
@@ -86,7 +87,7 @@ a {
 }
 
 .image-hero {
-    width: auto;
+    width: 40%;
     height: auto;
     background-color:lightgrey;
 }
@@ -98,18 +99,86 @@ a {
     flex-direction:column;
     align-items: center;
     /* this padding is used to make some space in the left and right side of the section */
-    padding: 200px;
-    padding-top: 50px
+    padding: 120px;
+    padding-top: 50px;
 }
 
 .information-header {
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 1000;
     color: #1f2937;
     padding-bottom: 50px;
 }
 
 .illustration-container {
     display: flex;
+    gap: 100px;
+    
+}
 
+.illustration {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.illustration img {
+    height: 200px;
+    width: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+}
+
+.image-subtext {
+    height: auto;
+    width: 200px;
+}
+
+/* third section: quote */
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 490px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    gap: 16px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    display: flex;
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* fourth section: ads */
+
+
+
+/* footer */
+
+.footer-container {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
 }
