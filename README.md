@@ -1,2 +1,2 @@
 # odin-landing-page
---Another small project involving the creation of a website's landing page, this time with a bit of style in addition--
+Landing page created for the Oding Project. This page uses flex to display the elements.
