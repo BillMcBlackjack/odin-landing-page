@@ -149,7 +149,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 490px;
+    margin: 0px 400px;
     padding-top: 70px;
     padding-bottom: 70px;
     gap: 16px;
